@@ -1,14 +1,3 @@
-const graphql = require('graphql');
-
-const {
-    buildSchema,
-    GraphQLSchema,
-    GraphQLObjectType,
-    GraphQLString,
-    GraphQLID,
-    GraphQLList,
-    GraphQLNonNull,
-    isOutputType, } = graphql;
 const { makeExecutableSchema } = require('graphql-tools');
 
 // Some fake data
